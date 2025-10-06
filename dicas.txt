@@ -1,0 +1,22 @@
+Vamos utilizar prisma
+npm install prisma @prisma/client
+
+depois, executar o prisma init
+
+npx prisma init
+
+npx prisma init --datasource-provider postgressql
+
+proxima etapa: DATABASE_URL="postgresql://postgres:amods@localhost:7777/hogwarts_db"
+
+no .env
+
+Depois de criar o model, precisamos criar o migrate
+
+npx prisma migrate dev --name init
+
+depois 
+
+npx prisma generate 
+
+npm run studio
