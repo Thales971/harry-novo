@@ -7,8 +7,8 @@ CREATE TABLE "bruxos" (
     "varinha" TEXT NOT NULL,
     "anoMatricula" INTEGER NOT NULL,
     "ativo" BOOLEAN NOT NULL DEFAULT true,
-    "createdAT" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAT" TIMESTAMP(3) NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updateAt" TIMESTAMP(3) NOT NULL,
 
     CONSTRAINT "bruxos_pkey" PRIMARY KEY ("id")
 );
